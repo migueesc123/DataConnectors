@@ -237,7 +237,6 @@ Authentication = [
 The current credentials can be retrieved using the `Extension.CurrentCredential()` function.
 
 M data source functions that have been enabled for extensibility will automatically inherit your extension's credential scope. In most cases, you will not need to explicitly access the current credentials, however, there are exceptions, such as:
-
 * Passing in the credential in a custom header or query string parameter (such as when you are using the API Key auth type)
 * Setting connection string properties for ODBC or ADO.NET extensions
 * Checking custom properties on an OAuth token
@@ -276,7 +275,7 @@ in
 
 #### Implementing an OAuth Flow
 
-Please see the [MyGraph](../samples/MyGraph) and [Github](../samples/github) samples.
+Please see the [MyGraph](../samples/MyGraph) and [Github](../samples/Github) samples.
 
 #### Implementing a Parameterized Authentication Kind
 
